@@ -45,7 +45,7 @@ namespace TabViewSample
             {
                 if (tabItem is Syncfusion.Maui.TabView.SfTabItem tabItemView)
                 {
-                    totalTabWidth += tabItemView.Measure(double.PositiveInfinity, double.PositiveInfinity).Request.Width;
+                    totalTabWidth += tabItemView.Measure(double.PositiveInfinity, double.PositiveInfinity).Width;
                 }
             }
             double remainingSpace = ((width - totalTabWidth));
